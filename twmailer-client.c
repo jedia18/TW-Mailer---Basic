@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <dirent.h>
+int a = 0;
 ///////////////////////////////////////////////////////////////////////////////
 
 #define BUF 1024
@@ -69,7 +70,7 @@ int main(int argc, char **argv)
     {
         inet_aton(argv[1], &address.sin_addr);
     }
-
+    int b = 0;
     ////////////////////////////////////////////////////////////////////////////
     // CREATE A CONNECTION
     // https://man7.org/linux/man-pages/man2/connect.2.html
