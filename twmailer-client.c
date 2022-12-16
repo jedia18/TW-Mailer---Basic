@@ -7,7 +7,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <dirent.h>
-
+// That is a test 
+int a = 0; 
 ///////////////////////////////////////////////////////////////////////////////
 
 #define BUF 1024
